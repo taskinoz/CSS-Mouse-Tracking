@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style media="screen">
+    /* Simple Reset */
+    html,body{
+      height: 100%;
+      width: 100%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Simple Styling */
+    .content{
+      margin: 40px 15%;
+      font-family: Arial;
+      padding: 20px;
+    }
+
+    /* Table Tracking */
+    table{
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+    table td{
+      width: calc(100% / 10);
+    }
+    tr:nth-child(1) td:hover:nth-child(1){content: url(track?x=1&y=1);}
+    tr:nth-child(1) td:hover:nth-child(2){content: url(track?x=2&y=1);}
+    tr:nth-child(1) td:hover:nth-child(3){content: url(track?x=3&y=1);}
+    tr:nth-child(1) td:hover:nth-child(4){content: url(track?x=4&y=1);}
+    tr:nth-child(1) td:hover:nth-child(5){content: url(track?x=5&y=1);}
+    tr:nth-child(1) td:hover:nth-child(6){content: url(track?x=6&y=1);}
+    tr:nth-child(1) td:hover:nth-child(7){content: url(track?x=7&y=1);}
+    tr:nth-child(1) td:hover:nth-child(8){content: url(track?x=8&y=1);}
+    tr:nth-child(1) td:hover:nth-child(9){content: url(track?x=9&y=1);}
+    tr:nth-child(1) td:hover:nth-child(10){content: url(track?x=10&y=1);}
+
+    tr:nth-child(2) td:hover:nth-child(1){content: url(track?x=1&y=2);}
+    tr:nth-child(2) td:hover:nth-child(2){content: url(track?x=2&y=2);}
+    tr:nth-child(2) td:hover:nth-child(3){content: url(track?x=3&y=2);}
+    tr:nth-child(2) td:hover:nth-child(4){content: url(track?x=4&y=2);}
+    tr:nth-child(2) td:hover:nth-child(5){content: url(track?x=5&y=2);}
+    tr:nth-child(2) td:hover:nth-child(6){content: url(track?x=6&y=2);}
+    tr:nth-child(2) td:hover:nth-child(7){content: url(track?x=7&y=2);}
+    tr:nth-child(2) td:hover:nth-child(8){content: url(track?x=8&y=2);}
+    tr:nth-child(2) td:hover:nth-child(9){content: url(track?x=9&y=2);}
+    tr:nth-child(2) td:hover:nth-child(10){content: url(track?x=10&y=2);}
+
+    tr:nth-child(3) td:hover:nth-child(1){content: url(track?x=1&y=3);}
+    tr:nth-child(3) td:hover:nth-child(2){content: url(track?x=2&y=3);}
+    tr:nth-child(3) td:hover:nth-child(3){content: url(track?x=3&y=3);}
+    tr:nth-child(3) td:hover:nth-child(4){content: url(track?x=4&y=3);}
+    tr:nth-child(3) td:hover:nth-child(5){content: url(track?x=5&y=3);}
+    tr:nth-child(3) td:hover:nth-child(6){content: url(track?x=6&y=3);}
+    tr:nth-child(3) td:hover:nth-child(7){content: url(track?x=7&y=3);}
+    tr:nth-child(3) td:hover:nth-child(8){content: url(track?x=8&y=3);}
+    tr:nth-child(3) td:hover:nth-child(9){content: url(track?x=9&y=3);}
+    tr:nth-child(3) td:hover:nth-child(10){content: url(track?x=10&y=3);}
+
+    tr:nth-child(4) td:hover:nth-child(1){content: url(track?x=1&y=4);}
+    tr:nth-child(4) td:hover:nth-child(2){content: url(track?x=2&y=4);}
+    tr:nth-child(4) td:hover:nth-child(3){content: url(track?x=3&y=4);}
+    tr:nth-child(4) td:hover:nth-child(4){content: url(track?x=4&y=4);}
+    tr:nth-child(4) td:hover:nth-child(5){content: url(track?x=5&y=4);}
+    tr:nth-child(4) td:hover:nth-child(6){content: url(track?x=6&y=4);}
+    tr:nth-child(4) td:hover:nth-child(7){content: url(track?x=7&y=4);}
+    tr:nth-child(4) td:hover:nth-child(8){content: url(track?x=8&y=4);}
+    tr:nth-child(4) td:hover:nth-child(9){content: url(track?x=9&y=4);}
+    tr:nth-child(4) td:hover:nth-child(10){content: url(track?x=10&y=4);}
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <table>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+</body>
+</html>
